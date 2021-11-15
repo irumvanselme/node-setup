@@ -2,5 +2,12 @@
 	"name": "node-setup",
 	"version": "1.0.0",
 	"author": "irumvanselme <andesanselme@gmail.com>",
-	"license": "MIT"
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon app/index.js"
+	},
+	"devDependencies": {
+		"eslint": "^8.2.0",
+		"prettier": "^2.4.1"
+	}
 }
